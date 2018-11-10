@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Items]
+(
+	[ItemID] INT NOT NULL PRIMARY KEY IDENTITY,
+	[ItemName] VARCHAR NOT NULL,
+	[Cost] FLOAT NOT NULL,
+	[Quantity] INT NOT NULL,
+	[reg_date] timestamp DEFAULT CURRENT_TIMESTAMP
+)

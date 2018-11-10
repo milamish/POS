@@ -18,7 +18,7 @@ namespace Milvale_POS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 myForm = new Form2();
+            AddItems myForm = new AddItems();
             this.Show();
             myForm.ShowDialog();
             this.Show();
@@ -35,6 +35,15 @@ namespace Milvale_POS
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            ViewItems myForm = new ViewItems();
+            this.Show();
+            myForm.ShowDialog();
+            this.Show();
         }
     }
 }
